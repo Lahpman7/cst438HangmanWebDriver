@@ -26,9 +26,7 @@ public class HangManIT {
    **/
   @Test 
   public void testingGuesses(){
-      //String user = System.getProperty("user");
-      //String pass = System.getProperty("pass");
-
+     
       WebDriver driver = new ChromeDriver();
       driver.get("http://hangmanwebapp-env.us-west-2.elasticbeanstalk.com/" + 
                   "hangman.html");
